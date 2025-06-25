@@ -1,0 +1,108 @@
+.footer {
+  margin-top: 0;
+  background: #b187c4;
+  padding: 40px 30px;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  flex: 1.2;
+  min-width: 250px;
+  margin-left: -3%;
+}
+
+.footer-logo-block {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 10px;
+}
+
+.footer-logo {
+  width: 60px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+  margin-top: -10px;
+}
+
+.footer-title .name {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  margin-top: -20%;
+  text-align: center;
+}
+
+.footer-hashtag {
+  color: #f0f0f0;
+  font-size: 13px;
+  margin: 10px 0;
+}
+
+.footer-note {
+  font-size: 13px;
+  color: #eee;
+  line-height: 1.5;
+}
+
+.footer-links {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  min-width: 150px;
+  text-align: center;
+  transform: translateX(-40%);
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.footer-right {
+  flex: 1;
+  max-width: 150px;
+}
+
+.footer-contact-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.socials {
+  margin-left: -45%;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: auto auto;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.socials .email-icon {
+  grid-column: 1 / span 3; /* email иконка на первой строке */
+  justify-self: center;
+}
+
+.socials img {
+  width: 45px;
+  height: 45px;
+}

@@ -1,0 +1,59 @@
+.methods {
+  text-align: center;
+  background-color: white;
+}
+
+.methods-header {
+  padding: 50px 20px 20px;
+  background-color: white;
+  position: relative;
+  z-index: 2;
+}
+
+.methods-header h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: #000;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.highlight {
+  color: #660099;
+}
+
+.methods-body {
+  background-image: url('/photos/background.png');
+  background-repeat: no-repeat;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 40px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
+}
+
+.method-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 14%;
+}
+
+.method-item {
+  background: white;
+  border-radius: 50%;
+  width: 230px;
+  height: 230px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
