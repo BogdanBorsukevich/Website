@@ -23,7 +23,7 @@
 }
 
 .methods-body {
-  background-image: url('/photos/background.png');
+  background-image: url('photos/background.png');
   background-repeat: no-repeat;
   width: 100%;
   background-size: cover;
