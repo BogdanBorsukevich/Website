@@ -17,21 +17,40 @@
 <body>
   <header class="header">
   <div class="container header-content">
-    <div class="logo">
-      <img src="photos/logo.jpg" alt="Logo" />
+    <div class="top-bar">
+      <div class="logo">
+        <img src="photos/logo.jpg" alt="Logo" />
+      </div>
+
+      <div class="icons mobile-icons">
+        <img src="photos/cart.svg" alt="Cart" />
+        <img src="photos/user.png" alt="User" />
+      </div>
+
+      <div class="burger" id="burger">&#9776;</div>
     </div>
+
     <nav class="nav">
       <a href="#">ГОЛОВНА</a>
       <a href="#">ЗБІРНИКИ</a>
       <a href="#">ТЕРАПЕВТИЧНІ КАЗКИ</a>
       <a href="#">КОНТАКТИ</a>
     </nav>
+
     <div class="header-actions">
       <button class="btn-header">ЗАПИСАТИСЯ</button>
-      <div class="icons">
+      <div class="icons desktop-icons">
         <img src="photos/cart.svg" alt="Cart" />
         <img src="photos/user.png" alt="User" />
       </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#">ГОЛОВНА</a>
+      <a href="#">ЗБІРНИКИ</a>
+      <a href="#">ТЕРАПЕВТИЧНІ КАЗКИ</a>
+      <a href="#">КОНТАКТИ</a>
+      <button class="btn-header">ЗАПИСАТИСЯ</button>
     </div>
   </div>
 </header>
@@ -105,16 +124,15 @@
   </div>
   <div class="methods-body">
     <div class="method-list">
-      <div class="method-item">НЕЙРОПСИХОЛОГІЧНІ<br>МЕТОДИКИ</div>
-      <div class="method-item">ВПРАВИ,<br>КАЗКОТЕРАПІЮ</div>
-      <div class="method-item">А ТАКОЖ МАЮ<br>ЗБІРНИКИ ДЛЯ<br>САМОСТІЙНОЇ<br>ПРАКТИКИ ВДОМА</div>
+      <div class="method-item animate-on-scroll">НЕЙРОПСИХОЛОГІЧНІ<br>МЕТОДИКИ</div>
+      <div class="method-item animate-on-scroll">ВПРАВИ,<br>КАЗКОТЕРАПІЮ</div>
+      <div class="method-item animate-on-scroll">А ТАКОЖ МАЮ<br>ЗБІРНИКИ ДЛЯ<br>САМОСТІЙНОЇ<br>ПРАКТИКИ ВДОМА</div>
     </div>
   </div>
 </section>
 
   <section class="help-options">
   <h2>ЯК Я МОЖУ ДОПОМОГТИ ВАШІЙ ДИТИНІ СЬОГОДНІ?</h2>
-
   <div class="option">
     <div class="option-left">
       <img src="photos/butterfly.png" alt="Butterfly" class="butterfly2">
@@ -181,11 +199,8 @@
       <div class="form-box">
         <form>
           <input id="name" type="text" placeholder="Ваше ім’я" required>
-
           <input id="email" type="email" placeholder="poshta@gmail.com" required>
-
           <input id="phone" type="tel" placeholder="+38 (066) 666-6666" required>
-
           <button type="submit" class="btn-filled2">ВІДПРАВИТИ</button>
         </form>
       </div>
@@ -193,7 +208,6 @@
   </div>
 </section>
 
-<!-- SVG-плавный переход -->
 <div class="wave-transition1">
   <svg viewBox="0 0 1440 320" preserveAspectRatio="none">
     <path d="M0,160 

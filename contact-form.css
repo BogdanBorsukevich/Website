@@ -82,3 +82,72 @@
 .btn-filled2:hover {
   background-color: #5a2687;
 }
+
+/* Планшеты (ширина до 1024px) */
+@media (max-width: 1024px) {
+  .form-section {
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+  }
+
+  .form-box {
+    width: 100%;
+    padding: 40px;
+  }
+
+  .form-wrapper {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .form-img img {
+    max-width: 250px;
+  }
+}
+
+/* Мобильные устройства (ширина до 768px) */
+@media (max-width: 768px) {
+  .contact-form {
+    padding: 40px 15px;
+  }
+
+  .form-section {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .form-img {
+    text-align: center;
+  }
+
+  .form-img img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+  }
+
+  .form-wrapper h3 {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+
+  .form-box {
+    padding: 30px 20px;
+    width: 100%;
+  }
+
+  .form-box input {
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .btn-filled2 {
+    width: 100%;
+    font-size: 14px;
+    padding: 12px;
+    margin-top: 30px;
+  }
+}
