@@ -1,0 +1,181 @@
+.directions {
+  background: linear-gradient(to bottom, #ffffff 50%, #E5B7ED 50%);
+  padding: 40px 20px 120px;
+  text-align: center;
+  position: relative;
+}
+
+.title-wrapper {
+  font-weight: normal;
+  width: 100%;
+  background: #B28BCF;
+  border-radius: 40px;
+  display: inline-block;
+  padding: 12px 40px;
+  margin-bottom: 40px;
+  color: white;
+  font-size: 22px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 70px;
+  position: relative;
+}
+
+.card {
+  background: white;
+  border: 2px solid #660099;
+  padding: 20px 25px;
+  width: 210px;
+  height: 330px;
+  text-align: left;
+  position: relative;
+  border-radius: 0;
+}
+
+.cards .card:nth-child(1),
+.cards .card:nth-child(3) {
+  margin-top: 140px;
+  margin-bottom: -80px;
+}
+
+.cards .card:nth-child(2) {
+  z-index: 1;
+}
+
+.card h3 {
+  color: #660099;
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.card ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  line-height: 1.8;
+  font-size: 15px; 
+}
+
+.card ul li {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.4;
+  padding-left: 0;
+  text-indent: 0;
+  position: relative;
+}
+
+.card ul li::before {
+  content: "•";
+  padding-right: 8px;
+  color: #333;
+  font-size: 15px;
+}
+
+.consult-button {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid #660099;
+  background: white;
+  color: #660099;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background 0.3s;
+
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.consult-button:hover {
+  background: #f3e6ff;
+}
+
+.butterfly {
+  position: absolute;
+  width: 30px;
+  top: -25px;
+}
+
+.butterfly-left {
+  left: -23px;
+}
+
+.butterfly-right {
+  right: -23px;
+  transform: scaleX(-1);
+}
+
+@media (max-width: 1024px) {
+  .directions {
+    padding: 40px 20px 40px;
+    background: linear-gradient(to bottom, #ffffff 60%, #E5B7ED 40%);
+  }
+
+  .title-wrapper {
+    font-size: 18px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .card {
+    width: 90%;
+    max-width: 320px;
+    height: auto;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .cards .card:nth-child(1),
+  .cards .card:nth-child(3) {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .card h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .card ul {
+    font-size: 14px;
+  }
+
+  .card ul li {
+    margin-bottom: 16px;
+    font-size: 14px;
+    line-height: 1.4;
+  }
+
+  .butterfly {
+    display: none;
+  }
+
+  .consult-button {
+    position: static;
+    transform: none;
+    margin: 30px auto 0;
+    display: block;
+    width: 130px;
+    height: 130px;
+    font-size: 14px;
+  }
+}

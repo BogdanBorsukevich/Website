@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #fff;
+  color: #333;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding-left: 80px;
+  padding-right: 60px;
+  margin: 0 auto;
+}
+
+.wave-transition {
+  line-height: 0;
+  overflow: hidden;
+}
+
+.wave-transition svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
+
+.wave-transition1 {
+  background-color: #E5B7ED80;
+
+}
+
+.wave-transition1 svg {
+  display: block;
+  width: 100%;
+  height: 100px;
+}
