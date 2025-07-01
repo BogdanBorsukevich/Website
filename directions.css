@@ -151,17 +151,17 @@
   }
 
   .card h3 {
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
 
   .card ul {
-    font-size: 14px;
+    font-size: 17px;
   }
 
   .card ul li {
     margin-bottom: 16px;
-    font-size: 14px;
+    font-size: 17px;
     line-height: 1.4;
   }
 
@@ -176,6 +176,36 @@
     display: block;
     width: 130px;
     height: 130px;
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 768px) {
+  .title-wrapper {
     font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+  }
+
+  .card h3 {
+    font-size: 19px;
+    margin-bottom: 10px;
+  }
+
+  .card ul li {
+    margin-bottom: 16px;
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .consult-button {
+    position: static;
+    transform: none;
+    margin: 30px auto 0;
+    display: block;
+    width: 130px;
+    height: 130px;
+    font-size: 18px;
   }
 }
