@@ -12,9 +12,18 @@
   <link rel="stylesheet" href="options.css" />
   <link rel="stylesheet" href="contact-form.css" />
   <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="404.css" />
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="error-container hidden">
+    <h1>ОЙ, ЗДАЄТЬСЯ СТОРІНКА<br>НЕ В РЕСУРСІ</h1>
+    <p>Або вказана невірно адреса</p>
+    <div class="code">404 404 404 404 404 404 404 404 404 404 404</div>
+    <a href="index.html" class="back-button">Повернутися на сайт</a>
+  </div>
+
+  <div id="main-content">
   <header class="header">
   <div class="container header-content">
     <div class="top-bar">
@@ -263,6 +272,7 @@
   </div>
 </div>
 </footer>
+</div>
 
   <script src="contact-form.js"></script>
 </body>

@@ -1,0 +1,129 @@
+.error-container {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #ffffff;
+  color: #2d2d2d;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  height: 100vh;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 9999;
+  gap: 70px;
+}
+
+.error-container h1 {
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 0;
+}
+
+.error-container p {
+  font-weight: 600;
+  font-size: 25px;
+  color: #7a30a8;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.error-container .code {
+  font-size: 2.8vw;
+  font-weight: normal;
+  color: #7a30a8;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1vw;
+  line-height: 1.2;
+}
+
+.error-container .back-button {
+  background: #d6b1e8;
+  color: white;
+  border: 2px solid #500f88;
+  padding: 12px 28px;
+  font-weight: bold;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background 0.3s ease;
+  margin-top: 5%;
+}
+
+.error-container .back-button:hover {
+  background: #c092dd;
+}
+
+.error-container.hidden {
+  display: none;
+}
+
+.error-container.visible {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .error-container {
+    gap: 40px;
+    padding: 30px 15px;
+  }
+
+  .error-container h1 {
+    font-size: 24px;
+  }
+
+  .error-container p {
+    font-size: 18px;
+  }
+
+  .error-container .code {
+    font-size: 5.5vw;
+    letter-spacing: 2vw;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
+  .error-container .back-button {
+    font-size: 13px;
+    padding: 10px 22px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1024px) {
+  .error-container {
+    gap: 60px;
+    padding: 35px 25px;
+  }
+
+  .error-container h1 {
+    font-size: 30px;
+  }
+
+  .error-container p {
+    font-size: 22px;
+  }
+
+  .error-container .code {
+    font-size: 4vw;
+    letter-spacing: 1.5vw;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .error-container .back-button {
+    font-size: 14px;
+    padding: 12px 26px;
+  }
+}
